@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+  int a,i;
+  printf("enter the number to find the divisors of");
+  scanf("%d",&a);
+  printf("divisors of %d are", a);
+  for(i=1;i<=a;i++)
+  {
+    if(a%i==0)
+    {
+       printf("%d  \n",i);
+    }
+  }
+  printf("AADYA GUPTA S2-50");
+  return 0;
+}
